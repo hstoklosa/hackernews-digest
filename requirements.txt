@@ -1,3 +1,6 @@
 requests
 ffmpeg
 podcastfy
+python-dotenv
+datetime
+typing

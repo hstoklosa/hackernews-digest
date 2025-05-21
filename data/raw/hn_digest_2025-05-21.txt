@@ -1,0 +1,339 @@
+# HackerNews Daily Digest
+
+Top discussions on HackerNews for 2025-05-21
+
+## 1. For algorithms, a little memory outweighs a lot of time
+Score: 104 | By: makira
+URL: https://www.quantamagazine.org/for-algorithms-a-little-memory-outweighs-a-lot-of-time-20250521/
+
+Top comments:
+- @cperciva: Minus the fuzz: A multitape Turing machine running in time t can be simulated using O(sqrt(t log t)) space (and typically more than t time). <a href="https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2502.177...
+- @LPisGood: I think it is very intuitive that more space beats the pants off of more time. In time O(n) you can use O(n) cells on a tape, but there are O(2^n) possible configurations of symbols on a tape of lengt...
+- @whatever1: Lookup tables with precalculated things for the win! In fact I don’t think we would need processors anymore if we were centrally storing all of the operations ever done in our processors. Now fast ret...
+
+---
+
+## 2. Show HN: Confidential computing for high-assurance RISC-V embedded systems
+Score: 49 | By: mrnoone
+URL: https://github.com/IBM/ACE-RISCV
+
+Summary: Dear HN community! Looking forward to hearing your feedback on ACE (assured confidential execution), technology that implements VM-based trusted execution environment (TEE) for embedded RISC-V systems with focus on a formally verified and auditable firmware. We target high-assurance systems that can...
+
+Top comments:
+- @neom: I saw the repo you posted earlier today and had a look through it, developers have faced in the confidential computing space, particularly with x86 TEEs, fragmentation leading to vendor lockin and a d...
+- @IshKebab: Can you explain what the relationship is between this and CoVE? Is ACE (this repo) the firmware, and CoVE the RISC-V hardware extensions that it requires? How does it run on a P550 if that doesn&#x27;...
+
+---
+
+## 3. By default, Signal doesn't recall
+Score: 343 | By: feross
+URL: https://signal.org/blog/signal-doesnt-recall/
+
+Top comments:
+- @trinsic2: If you have to have this kind of monitoring on your OS, to circumvent spying on your apps, something is really wrong and you should probably take the nearest exit.
+- @godelski: I wonder if 2025 will be the year of Linux. Windows has turned itself into spyware. Apple is too expensive and going the same way. Meanwhile the user experience of Linux has dramatically increased. Pu...
+- @overgard: Microsoft really seems out of control. Yesterday I noticed that OneDrive was turned on automatically (I&#x27;ve always been very clear about not turning it on). Which was incredibly shocking to me, th...
+- @pseudosavant: Does anyone else feel like Signal is acting like Recall is the only app that could record your screen on Windows? It seems like this is something they should have been stopping for a long time and the...
+- @bcoates: Maybe I&#x27;m nuts, but I absolutely love timesnapper (the non-LLM predecessor of Recall, but the same screenshot every few seconds concept). I originally got it for it&#x27;s main advertised functio...
+
+---
+
+## 4. The curious tale of Bhutan's playable record postage stamps (2015)
+Score: 61 | By: ohjeez
+URL: https://thevinylfactory.com/features/the-curious-tale-of-bhutans-playable-record-postage-stamps/
+
+Top comments:
+- @NaOH: Previous discussion: The curious tale of Bhutan&#x27;s playable record postage stamps (2015) - <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=22896682">https:&#x2F;&#x2F;news.ycombinator...
+
+---
+
+## 5. OpenAI to buy AI startup from Jony Ive
+Score: 557 | By: minimaxir
+URL: https://www.bloomberg.com/news/articles/2025-05-21/openai-to-buy-apple-veteran-jony-ive-s-ai-device-startup-in-6-5-billion-deal
+
+Top comments:
+- @nickthegreek: <a href="https:&#x2F;&#x2F;archive.is&#x2F;HgpSJ" rel="nofollow">https:&#x2F;&#x2F;archive.is&#x2F;HgpSJ</a>
+- @dr_dshiv: Just need a way to talk to ChatGPT anytime. Microphone, speaker and permanent connection to ChatGPT. That’s all you need: io One need is being able to talk to ChatGPT in a whisper or silent voice… so ...
+- @Bjorkbat: A while back someone here on Hacker News made a pretty insightful comment that as great of a designer as Jony Ive is, a large part of his success is owed to the fact that he had an &quot;editor&quot; ...
+- @dudus: First Windsurf and now this. OpenAI is spending billions like there&#x27;s nothing else to use this money for while being seemingly cash strapped for model training since they already signaled more in...
+- @anonzzzies: So does openai know how to widen the context window without it taking more money? Otherwise Google wins, again. And this is all boring. Gemini 2.5 pro preview where you can just insert all files you h...
+
+---
+
+## 6. Show HN: I've built online video editor
+Score: 63 | By: mohyware
+URL: https://clipjs.vercel.app/
+
+Top comments:
+- @koakuma-chan: It looks like I can only edit the first 30 seconds of my video, which is 23 minutes long? <a href="https:&#x2F;&#x2F;i.imgur.com&#x2F;L39MS2r.png" rel="nofollow">https:&#x2F;&#x2F;i.imgur.com&#x2F;L39...
+- @asadm: It would be good to add a default project to just test it out without uploading our own content.
+- @zoogeny: I got about 30% through making something very similar then moved on to another project. This is very nicely done. It is worth noting that I did a lot of research in this space when I was working on my...
+- @jasonthorsness: This is remarkably good for a month-old project. I wish all apps could remain this snappy! I don&#x27;t like the auto-scrolling of the timeline when the red bar reaches the halfway point it&#x27;s too...
+- @jony1266: looks cool, love how there&#x27;s no sign in required. some feedback so far: - allow me to drag + drop video clips to add them to the media section - allow me to trim the beginning of a clip - right n...
+
+---
+
+## 7. Collaborative Text Editing Without CRDTs or OT
+Score: 160 | By: samwillis
+URL: https://mattweidner.com/2025/05/21/text-without-crdts.html
+
+Top comments:
+- @Animats: That is very neat. The algorithm: - Label each text character with a globally unique ID (e.g., a UUID), so that we can refer to it in a consistent way across time - instead of using an array index tha...
+- @Footkerchief: Surprised to see no discussion of other data structures like dicts&#x2F;maps, or arrays of arbitrary type.  Hopefully they&#x27;d be a straightforward extension.  IME, apps need collaborative data str...
+- @hem777: Cool to see a write up on this! Discovered the same method years ago and also wondered why it doesn’t show up in academic literature. I implemented this in a decentralized context and as a CRDT though...
+- @math_dandy: Is the take-home message of the post that the full complexity of CRDTs&#x2F;OT is necessary only in the absence of a central server?
+- @pshc: Use of server reconciliation makes me think client-side reconciliation would be tricky… how do you preserve smooth editor UX while applying server updates as they arrive? For example, if your client-s...
+
+---
+
+## 8. Rocky Linux 10 Will Support RISC-V
+Score: 27 | By: fork-bomber
+URL: https://rockylinux.org/news/rockylinux-support-for-riscv
+
+Top comments:
+- @audidude: Red Hat announced RISC-V yesterday with RHEL 10. So this seems rather expected. <a href="https:&#x2F;&#x2F;www.redhat.com&#x2F;en&#x2F;blog&#x2F;red-hat-partners-with-sifive-for-risc-v-developer-previ...
+- @mrbluecoat: Better title: Rocky Linux 10 Will Support Two RISC-V Boards
+
+---
+
+## 9. Devstral
+Score: 310 | By: mfiguiere
+URL: https://mistral.ai/news/devstral
+
+Top comments:
+- @simonw: The first number I look at these days is the file size via Ollama, which for this model is 14GB <a href="https:&#x2F;&#x2F;ollama.com&#x2F;library&#x2F;devstral&#x2F;tags">https:&#x2F;&#x2F;ollama.com...
+- @oofbaroomf: The SWE-Bench scores are very, very high for an open source model of this size. 46.8% is better than o3-mini (with Agentless-lite) and Claude 3.6 (with AutoCodeRover), but it is a little lower than Cl...
+- @CSMastermind: I don&#x27;t believe the benchmarks they&#x27;re presenting. I haven&#x27;t tried it out yet but every model I&#x27;ve tested from Mistral has been towards the bottom of my benchmarks in a similar pla...
+- @solomatov: It&#x27;s very nice that it has the Apache 2.0 license, i.e. well understood license, instead of some &quot;open weight&quot; license with a lot of conditions.
+- @qwertox: Maybe the EU should cover the cost of creating this agent&#x2F;model, assuming it really delivers what it promises. It would allow Mistral to keep focusing on what they do and for us it would mean tha...
+
+---
+
+## 10. Sorcerer (YC S24) Is Hiring a Lead Hardware Design Engineer
+Score: 1 | By: maxmclau
+URL: https://jobs.ashbyhq.com/sorcerer/6beb70de-9956-49b7-8e28-f48ea39efac6
+
+---
+
+## 11. Animated Factorization (2012)
+Score: 215 | By: miniBill
+URL: http://www.datapointed.net/visualizations/math/factorization/animated-diagrams/
+
+Top comments:
+- @worldsayshi: This is brilliant! Now i want (to build) a drag and drop toy where i can multiply or summarize numbers that are represented in this way. To see how factors move (like boids). Is this visualization alg...
+- @math_dandy: The diagrams for powers of three form the Sierpinski triangle. Makes total sense once you see it, but I hadn&#x27;t seen it until today!
+- @pvg: Threads (with some explainy links) from a million and a million and a bit years ago <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=10776019">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;i...
+- @kccqzy: I wish the animation could play at a slower pace so you have time to count the number of groups and the circles within each group. I also wish each time a new circle would animate from the edge of the...
+- @smusamashah: Does it let you put your own number and see what diagram it makes?
+
+---
+
+## 12. Storefront Web Components
+Score: 105 | By: maltenuhn
+URL: https://shopify.dev/docs/api/storefront-web-components
+
+Top comments:
+- @blittle: I&#x27;m on the dev team that built this. Happy to answer any questions! We essentially use web components as a templating language to dynamically generate a GraphQL query to Shopify. Then render the ...
+- @skeptrune: I could not understand what this was from the linked site. Docs if anyone is curious - <a href="https:&#x2F;&#x2F;shopify.dev&#x2F;docs&#x2F;api&#x2F;storefront-web-components" rel="nofollow">https:&#...
+- @mercurialsolo: This is a master move though - it&#x27;s kinda like video(youtube) embeds in your site. If every site could sell and have an infinite curated catalog from shopify merchants - shopify becomes both the ...
+- @threeseed: Are developers able to use this within Shopify apps ? I wish Shopify made it easier to discern who the audience are for these frameworks since they have quite a few.
+
+---
+
+## 13. How we made iText's table rendering faster
+Score: 10 | By: whizzx
+URL: https://kb.itextpdf.com/itext/how-i-made-pdf-table-rendering-faster
+
+---
+
+## 14. Possible new dwarf planet found in our solar system
+Score: 84 | By: ddahlen
+URL: https://www.minorplanetcenter.net/mpec/K25/K25K47.html
+
+Top comments:
+- @astroalex: I found the preamble at the beginning of the announcement charmingly dated: > The Minor Planet Electronic Circulars contain information on unusual minor planets, routine data on comets and natural sat...
+- @ddahlen: The minor planet center is the clearing house of observations of objects in our solar system. They have announced a new dwarf planet today. This object appears to be in a very eccentric orbit (0.948),...
+- @ddahlen: I got a bit too excited with this one, this is may not be a full on dwarf planet, but it is a very large object. There are only a small number (about 10-20) objects in our solar system of this size. I...
+- @ChuckMcM: &quot;That&#x27;s no moon&quot; :-). But more seriously, just another giant lump of stuff swinging around the solar system. I am not an astronomer, so I&#x27;m not sure about some of the things I&#x27...
+- @d_silin: For the curious. Periapsis, au: 45.241 Apoapsis, au: 1714.759 Period, years: 26106.07
+
+---
+
+## 15. The Machine Stops (1909)
+Score: 9 | By: xeonmc
+URL: https://standardebooks.org/ebooks/e-m-forster/short-fiction/text/the-machine-stops
+
+---
+
+## 16. LLM function calls don't scale; code orchestration is simpler, more effective
+Score: 130 | By: jngiam1
+URL: https://jngiam.bearblog.dev/mcp-large-data/
+
+Top comments:
+- @padjo: Sorry I’ve been out of the industry for the last year or so, is this madness really what people are doing now?
+- @mehdibl: The issue is not in function calls but HOW MCP got designed here and you are using. Most MCP are replicating API. Returning blobs of data. 1. This is using a lot of input context in formating as JSON ...
+- @obiefernandez: My team at Shopify just open sourced Roast [1] recently. It lets us embed non-deterministic LLM jobs within orchestrated workflows. Essential when trying to automate work on codebases with millions of...
+- @hintymad: I feel that the optimal solution is hybrid, not polarized. That is, we use deterministic approach as much as we can, but leverage LLMs to handle the remaining complex part that is hard to spec out or ...
+- @stavros: I would really like to see output-aware LLM inference engines. For example, imagine if the LLM output some tokens that meant &quot;I&#x27;m going to do a tool call now&quot;, and the inference engine ...
+
+---
+
+## 17. An upgraded dev experience in Google AI Studio
+Score: 70 | By: meetpateltech
+URL: https://developers.googleblog.com/en/google-ai-studio-native-code-generation-agentic-tools-upgrade/
+
+Top comments:
+- @pjmlp: > Gemini 2.5 Pro is incredible at coding, so we’re excited to bring it to Google AI Studio’s native code editor. It’s tightly optimized with our Gen AI SDK so it’s easier to generate apps with a simpl...
+- @ed: I spent a few minutes playing with Studio and the model and agent are very impressive. But be sure to connect Studio to Google Drive, or else you will lose all your progress.
+- @dangoodmanUT: Finally, Google is utilizing their cloud
+- @koakuma-chan: Why did they hide the model thought details? Thoughts look like this now: Analyzing TypeScript Errors I&#x27;m currently focused on the actions&#x2F;user.ts file, where I&#x27;ve identified a few issu...
+- @jasonjmcghee: Did anyone else notice the weird subtle typos in the output? &quot;Te harsh jolt of the cryopod cycling down rips you&quot; &quot;ou carefully swing your legs out&quot; I find this really interesting ...
+
+---
+
+## 18. Introducing the Llama Startup Program
+Score: 137 | By: mayalilpony10
+URL: https://ai.meta.com/blog/llama-startup-program/?_fb_noscript=1
+
+Top comments:
+- @lr1970: > and may help to fund their use of Llama models. I love open weight (and better open source) LLMs and wish Llama all the best! But God help Meta if they have to pay startups to entice them to use the...
+- @neilv: Better hurry: > Applications for the initial cohort close on May 30, 2025 at 6:00 pm PT.
+- @slowhand09: Waiting for an obligatory WinampAI post because... It Really Whips the Llama&#x27;s Ass.
+- @rgbrgb: > Funding + Support -> Apply for Llama Startup Program by May 30 -> Vision Feels a little backwards, no? Perhaps should have consulted Gemini.
+- @adamloving: Quick summary: Apply for up to $6K reimbursement per month for up to 6 months for Llama usage (wherever you use it). Incorporated startups with less than $10 million USD in funding are eligible. (disc...
+
+---
+
+## 19. Understanding the Go Scheduler
+Score: 87 | By: gnabgib
+URL: https://nghiant3223.github.io/2025/04/15/go-scheduler.html
+
+Top comments:
+- @__turbobrew__: Make sure you set GOMAXPROCS when the runtime is cgroup limited. I once profiled a slow go program running on a node with 168 cores, but cpu.max was 2 cores for the cgroup. The runtime defaults to set...
+- @jasonthorsness: It&#x27;s always a sign of good design when something as complex as the scheduler described &quot;just works&quot; with the simple abstraction of the goroutine. What a great article. &quot;1&#x2F;61 o...
+- @kortex: Fantastic writeup! Visualizations are great, the writeup is thorough but readable.
+- @90s_dev: I heard that the scheduler is a huge obstacle to many potential optimizations, is that true?
+
+---
+
+## 20. Launch HN: SIM Studio (YC X25) – Figma-Like Canvas for Agent Workflows
+Score: 43 | By: waleedlatif1
+
+Summary: Hey HN! We&#x27;re Emir and Waleed from Sim Studio (<a href="https:&#x2F;&#x2F;simstudio.ai">https:&#x2F;&#x2F;simstudio.ai</a>). We did a Show HN a few weeks ago about our open-source project (<a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43823096">https:&#x2F;&#x2F;news.ycombinator....
+
+Top comments:
+- @matt3D: The one thing I find a bit odd about a lot of these orchestration tools is that they aren&#x27;t AI first on their own UX. Surely the first thing I should be presented with is a prompt window that can...
+- @jasongill: It would be great to see how this compares (why it&#x27;s better, or what it does differently) to the myriad of competitors in this space - from established players like n8n adding &#x27;AI&#x27; feat...
+- @flaviuspopan: Lovely! I’ll give this a shot soon. Two questions:
+ 1. Pricing - I presume y’all will eventually charge for hosting like n8n? I’m feeling a bit sheepish trying a new service without any mention of pri...
+- @primitivesuave: Congratulations on the public launch! I had the honor of meeting these founders in person, and was pretty inspired by how fast these guys ship features and iterate on the product with their customers....
+- @srameshc: I like the product. But I have a feedback: Your homepage doesn&#x27;t exactly help understand your product. Your github has a GIF that describes your product better, so you should consider having some...
+
+---
+
+## 21. The US has a new most powerful laser hitting 2 petawatts
+Score: 78 | By: voxadam
+URL: https://news.engin.umich.edu/2025/05/the-us-has-a-new-most-powerful-laser/
+
+Top comments:
+- @owenversteeg: I see a number of comments here misunderstanding the power of this laser. Laser facilities like this one are designed for incredibly short pulses that are femtoseconds long, and total energy per pulse...
+- @spookie: For anyone interested, the most powerful one is in Romania at the Extreme Light Infrastructure (ELI) in Măgurele.
+It&#x27;s about 10 petawatts.
+- @int0x29: > “Having a national resource like this, which awards time to users whose experimental concepts are most promising for advancing scientific priorities, is really bringing high-intensity laser science ...
+- @cnees: I got a tour of the lab during construction. As a software engineer, what I found most incredible about the project was how well they stuck to their delivery proposal and timeline over the course of f...
+- @torcete: In this very interesting video, a Russian drone developer gives his thoughts about laser weapons. In theory they work, they test it always on ideal atmospheric conditions. In practice, they don&#x27;t...
+
+---
+
+## 22. 'Turbocharged' Mitochondria Power Birds' Epic Migratory Journeys
+Score: 83 | By: rbanffy
+URL: https://www.quantamagazine.org/turbocharged-mitochondria-power-birds-epic-migratory-journeys-20250519/
+
+Top comments:
+- @ajb: It seems like mitochondria research is going to have a lot of impact over the next decades. For example, apparently some people with fatigue diseases have damaged mitochondria (eg, Dianna Cowern aka T...
+- @koeng: Fun fact: respiration is what really caused eukaryogenesis and the ability for multicellular life to occur. If archaea (what our nuclear genomes are derived from) weren&#x27;t being kinda weird in the...
+- @jonplackett: Would be interesting if there’s some trigger hormone or other mechanism that triggers turbo mode. It’ll be being used in the Tour de France in no time if so. (FYI I’m not a biologist and have no idea ...
+- @kridsdale1: One of the interesting findings in the article’s linked paper was that vitamin E is an effective dietary antioxidant (in birds) but only if they do 2 hours of cardio per day.
+- @parpfish: It’s interesting how “turbo” has had so much semantic drift that people don’t even know it’s a specific component in an engine. They just think it means “fast”. Wouldn’t be surprised to eventually see...
+
+---
+
+## 23. Harnessing the Universal Geometry of Embeddings
+Score: 63 | By: jxmorris12
+URL: https://arxiv.org/abs/2505.12540
+
+Top comments:
+- @mjburgess: I don&#x27;t see how the &quot;different data&quot; aspect is evidenced. If the &quot;modality&quot; of the data is the same, we&#x27;re choosing a highly specific subset of all possible data -- and, ...
+- @jxmorris12: Hi HN, I&#x27;m Jack, the last author of this paper. It feels good to release this, the fruit of a two-year quest to &quot;align&quot; two vector spaces without any paired data. It&#x27;s fun to look ...
+- @airylizard: The fact that embeddings from different models can be translated into a shared latent space (and back) supports the notion that semantic anchors or guides are not just model-specific hacks, but potent...
+- @SubiculumCode: Can this be used to allow different embedding models to communicate with each other in embedding space?
+
+---
+
+## 24. Ratatoi is a C libary that wraps stdlib's strtol (as atoi does), but it's evil.
+Score: 23 | By: rept0id-2
+URL: https://github.com/rept0id/ratatoi
+
+Top comments:
+- @threeducks: I think strtol is just a badly designed function. The return value should have been an error code and the actual long should have been &quot;returned&quot; via a pointer. Checking the return value is ...
+- @cmovq: Interestingly, a complete implementation of strtol [1] is shorter than this wrapper. If you don&#x27;t like strtol&#x27;s API or error handling, just implement your own. [1]: <a href="https:&#x2F;&#x2...
+- @rept0id-2: Ratatoi is a C libary that wraps stdlib&#x27;s strtol (as atoi does), but it&#x27;s evil. If an overflow is detected, it calls abort(), you crash and get Aborted (core dumped). This way, you prioritiz...
+- @ksherlock: Your errno checks aren&#x27;t correct. errno is only set on an error.  It&#x27;s not cleared on success.  If errno was previously set, the function will always abort(). So you need to do something lik...
+- @snarfy: pun driven development
+
+---
+
+## 25. ITXPlus: A ITX Sized Macintosh Plus Logicboard Reproduction
+Score: 6 | By: zdw
+URL: https://68kmla.org/bb/index.php?threads/itxplus-a-itx-sized-macintosh-plus-logicboard-reproduction.49715/
+
+---
+
+## 26. All That Glitters
+Score: 24 | By: gmays
+URL: https://magazine.atavist.com/all-that-glitters-jona-rechnitz-lawsuit-jadelle-jewelry-coba-ethereummax-mayweather/
+
+---
+
+## 27. µPC: Scaling Predictive Coding to 100 Layer Networks
+Score: 7 | By: frozenseven
+URL: https://arxiv.org/abs/2505.13124
+
+---
+
+## 28. What Is the Difference Between a Block, a Proc, and a Lambda in Ruby? (2013)
+Score: 62 | By: Tomte
+URL: https://blog.awaxman.com/what-is-the-difference-between-a-block-a-proc-and-a-lambda-in-ruby
+
+Top comments:
+- @HellzStormer: For those unaware, Ruby blocks (and procs) are more flexible than anonymous functions as most language implement them. The article briefly goes over that, mentioning that lambda (regular anonymous fun...
+- @vidarh: Separating out blocks this way is pretty meaningless. Blocks are a syntactical construct that can be optimized a certain way, and is in MRI. You can obtain a value of a block by naming it, and when yo...
+- @kubb: What happens when you return from a proc when the enclosing function has already returned?
+- @endorphine: > Lamdas check the number of arguments, while procs do not FWIW, Matz himself called this difference &quot;a design mistake&quot;.
+- @paulddraper: tl;dr A block is a part of the AST. Like a pair of braces. A proc is a function. A lambda is a proc that treats args and returns differently.
+
+---
+
+## 29. Lune: Standalone Luau Runtime
+Score: 63 | By: erlend_sh
+URL: https://github.com/lune-org/lune
+
+Top comments:
+- @Dekkonot: Disclaimer: I&#x27;ve contributed to Lune multiple times and have contributed off and on to Luau as well. For those who aren&#x27;t familiar, Luau is a language based on Lua that is developed and main...
+- @ricardobeat: At this point I see it as turn-off when a project like this uses Rust. Slow, massive tooling and such a huge barrier to entry, when we have Go, Zig or just C (this ends up being largely backed by libc...
+- @euvin: Cool to see a niche tool I use suddenly on hacker news! I just use it to serialize Roblox game assets, but I do wonder how many people are out there using it for non-roblox purposes.
+- @90s_dev: This looks like a great alternative to TypeScript + Node.js which I currently use. My main gripe with Lua (and thus Luau) is colons. It&#x27;s so easy to forget them. Does the type checker catch this ...
+
+---
+
+## 30. Visualizing entire Chromium include graph
+Score: 45 | By: bkryza
+URL: https://blog.bkryza.com/posts/visualizing-chromium-include-graph/
+
+Top comments:
+- @kloud: Great work, very cool trick using the clang commands output to get the data. In my experiments with software visualization I found that generic graph tools like Graphviz or Gephi do not produce useful...
+- @adrian_b: When I have reached the first image shown after &quot;Visualization&quot;, I have chuckled, thinking &quot;Yeah… this is not going to be very useful&quot;. However, immediately after that image the au...
+- @NewsaHackO: Am I the oy one that thinks a couple of these graphs look like penises?
+
+---
+

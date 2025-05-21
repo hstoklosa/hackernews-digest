@@ -1,0 +1,181 @@
+Title: Introducing Veo 3 and Imagen 4, and a new tool for filmmaking called Flow
+URL: https://blog.google/technology/ai/generative-media-models-io-2025/
+By: youssefarizk
+Score: 110
+Posted: Tue May 20 18:46:36 2025
+
+--------------------------------------------------------------------------------
+
+@vunderba:
+After doing some testing, Imagen 4 doesn&#x27;t score any higher than Imagen 3 on my comparison chart, approximately ~60% prompt adherence accuracy.
+
+<a href="https:&#x2F;&#x2F;genai-showdown.specr.net" rel="nofollow">https:&#x2F;&#x2F;genai-showdown.specr.net</a>
+  @xixixao:
+  Awesome showcase! Fun descriptions. Are there similar sites?
+  @Onavo:
+  How do companies like <a href="https:&#x2F;&#x2F;icon.com" rel="nofollow">https:&#x2F;&#x2F;icon.com</a> do their image Gen if the existing SOTA for prompt adherence is so poor?
+@Workaccount2:
+I&#x27;m sure by this point, and if not, pretty soon, everyone will have seen a clip of AI generated video and not thought twice about it.
+
+Its something that is only obvious when it is obvious. And the more obvious examples you see, the more non-obvious examples slip by.
+@carlosdp:
+Wow, this is incredible work! Blown away at how well the audio&#x2F;video matches up, and the dialogue is better sounding &#x2F; on-par with dedicated voice models.
+@pelagicAustral:
+Have they reveled anything similar to Claude Code yet? I sure hope they are saving that for I&#x2F;O next month... this video&#x2F;photo reveals are too gimmicky for my liking, alas I&#x27;m probably biased because I don&#x27;t really have a use for them.
+  @dmd:
+  <a href="https:&#x2F;&#x2F;jules.google&#x2F;" rel="nofollow">https:&#x2F;&#x2F;jules.google&#x2F;</a> posted here today <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44034918">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44034918</a>
+    @pelagicAustral:
+    Yeah, I saw that... not quite the same... I used it for a bit but it&#x27;s more like an agent that clings to a Github repo and deals with tickets up there, can&#x27;t really test live on local, it just serves a different purpose.
+@elzbardico:
+Got a bit of an uncanny valley feeling with the owl and the old man videos. And the origami video give me a sort of sinister feeling, seemed vaguely threatening, agressive.
+  @vjerancrnjak:
+  It&#x27;s a reflection of yourself.
+
+Origami for me was more audio than video. Felt like it&#x27;s exactly how it would sound.
+@jader201:
+I&#x27;m surprised no one has yet to mention the use of the name &quot;Flow&quot;, which is also the title of the 2025 Oscar winning animated movie, built using Blender. [1]
+
+This naming seems very confusing, as I originally thought there must be some connection. But I don&#x27;t think there is.
+
+[1] <a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43237273">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43237273</a>
+@airstrike:
+[delayed]
+@Animats:
+The ad for Flow would be much better if they laid off the swirly and wavy effects, and focused on realism.
+
+Soon, you should be able to put in a screenplay and a cast, and get a movie out.
+Then, &quot;Google Sequels&quot; - generates a sequel for any movie.
+  @esafak:
+  AI trailers already exist: <a href="https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL_52fVxPZcIiEvGocuVn6fOhbog0Ro8w2" rel="nofollow">https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL_52fVxPZcIiEvGocuVn6...</a>
+  @suddenlybananas:
+  Generating banal stock footage is wildly different than generating a film.
+  @dimal:
+  The swirly effects are probably used to distract from the problems of getting realism right.
+  @colesantiago:
+  Definately plausible.
+
+All this is in line with my prediction for the first entirely AI generated film (with Sora or other AI video tools) to win an Oscar being less than 5 years away.
+
+And we&#x27;re only 5 months in.
+
+<a href="https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42368951">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42368951</a>
+    @zanellato19:
+    I would believe that an AI generated film will never win an Oscar.
+
+I bet they will soon add rules that AI movies can&#x27;t even compete on it.
+      @zombiwoof:
+      Separate categories
+  @FirmwareBurner:
+  >Soon, you should be able to put in a screenplay and a cast, and get a movie out.
+
+This &quot;fixes&quot; Hollywood&#x27;s biggest &quot;issues&quot;. No more highly paid actors demanding 50 million to appear in your movie, no more pretentious movie stars causing dramas and controversies, no more workers&#x27; unions or strikes, but all gains being funneled directly to shareholders. The VFX industry being turned into a gig meatgrinder was already the canary in the coal mine for this shift.
+
+Most of the major Hollywood productions from the last 10 years have been nothing but creatively bankrupt sequels, prequels, spinoffs and remakes, all rehashed from previous IP anyway, so how much worse than this can AI do, since it&#x27;s clear they&#x27;re not interested in creativity anyway? Hell, it might even be an improvement than what they&#x27;re making today, and at much lower cost to boot. So why wouldn&#x27;t they adopt it? From the bean counter MBA perspective it makes perfect sense.
+    @quesera:
+    Actors will license their appearance, voice, and mannerisms to these new media projects. (Maybe by established Hollywood studios, maybe not).
+
+Then the first fully non-human (but human-like) actors will be created and gain popularity. The IP of those characters will be more valuable than the humans they replaced. They will be derided by old people as &quot;Mickey Mouse&quot; AI actors. The SAG will be beside themselves. Younger people will not care. The characters will never get old (or they will be perfectly rendered when they need to be old).
+
+The off-screen dramas and controversies are part of the entertainment, and these will be manufactured too. (If there will even be an off-screen...)
+
+This is the future, and we&#x27;ve been preparing for it for years by presenting the most fake versions of ourselves on social media. Viewers have zero expectation of authenticity, so biological status is just one more detail.
+
+It will be perfect, and it will be awful. Kids born five years from now will never know anything different.
+      @FirmwareBurner:
+      >Actors will license their appearance, voice, and mannerisms to these new media projects
+
+Very few actors have an appearance or a voice worth a lot in licenses. That&#x27;s like the top 1% of actors, if that.
+
+I think if done right, humans could also end up getting emotionally attached to 100% AI generated characters, not just famous celebrities.
+    @com2kid:
+    > Hollywood&#x27;s wet dream.
+
+Except it bankrupts Hollywood, they are no longer needed. Of people can generate full movies at home, there is no more Hollywood.
+
+The end game is endless ultra personalized content beamed into people&#x27;s heads every free waking hour of the day. Hollywood is irrelevant in that future.
+      @jsheard:
+      > Of people can generate full movies at home, there is no more Hollywood.
+
+LLMs have been in the oven for years longer than this, and I&#x27;m not seeing any signs of people generating their own novels at home. Well, besides the get-rich-quick grifters spamming the Kindle store with worthless slop in the hopes that someone parts with a dollar by accident.
+        @FirmwareBurner:
+        > I&#x27;m not seeing any signs of people generating their own novels at home
+
+Most humans are also not good at writing great scripts&#x2F;novels either. Just look at the movies that bring in billions of dollars at the box office. Do you think you need a famous novelist to write you a Fast & Furious 11 script?
+
+Sure, there are still great writers that can make scripts that tickle the mind, but that&#x27;s not what the studios want anymore. They want to push VFX heavy rehashed slop that&#x27;s cheap to make, easy to digest for the doom-scrolling masses of consumers, and rakes in a lot of money.
+
+You&#x27;re talking about what makes gourmet Michelin star food but the industry is making money selling McDonals.
+      @FirmwareBurner:
+      Good point, this is indeed a threat to them. Like how many young people are watching streamers now instead of worshiping present day&#x27;s music, TV or movie star like in the 90&#x27;s. The likes of Youtube and Twitch could be more valuable than Hollywood.
+
+That&#x27;s why I think Hollywood is rushing to adopt gen-AI, so they can churn out personalized content faster and cheaper straight to streaming, at the same rate as indie producers.
+@IncreasePosts:
+I don&#x27;t care about AI animals but the old salt offended me.
+@bowsamic:
+I&#x27;m surprised at how bad these are
+@sergiotapia:
+How do you use Imagen 4 in Gemini? I don&#x27;t see it in the model picker, I just 2.5 Flash and 2.5 Pro (Upgrade).
+  @vunderba:
+  It&#x27;s not at all obvious from Gemini - probably the easiest way is through Whisk.
+
+<a href="https:&#x2F;&#x2F;labs.google&#x2F;fx&#x2F;tools&#x2F;whisk" rel="nofollow">https:&#x2F;&#x2F;labs.google&#x2F;fx&#x2F;tools&#x2F;whisk</a>
+@phh:
+Of course they had to name a film making proprietary tool with the name of an award winning film made using open-source tools released less than a year ago...
+  @paxys:
+  &quot;Flow&quot; is one of the most generic names in tech. I can think of 10+ products called that off the top of my head.
+    @debugnik:
+    There&#x27;s no way they named their AI filmmaking tool after the last winner of the Academy Award for Best Animated Feature by accident.
+  @debugnik:
+  I still remember a style transfer paper which proudly mimicked a popular artist who had passed away barely a few years before (Qinni). Many AI researchers seemingly want to wear the skins of the people they rip off.
+@quantumHazer:
+Like most AI image or video generation tools, they produce results that look good at first glance, but the more you watch, the more flaws and sloppiness you notice, and they really lack storytelling
+  @harikb:
+  They don&#x27;t have to be as good as the best film production team - they just need to be better than the average&#x2F;B-grade ones to gain adoption.
+
+With the media & entertainment hungry world which is about to get worse with the unempoyed&#x2F;underemployed tiktok generation needing &quot;content&quot;, something like this has to have a play.
+    @bsimpson:
+    Jon Stewart did a gag in this week&#x27;s episode where there were happy meal toy versions of a bunch of congressmen on screen for a few seconds.
+
+A lot of content is like this - you just need an approximation to sell an idea, not a perfect reproduction.  Makes way more sense to have AI generate you a quick image for a sight gag than to have someone spend all day trying to comp it by hand.  And as AI imagery gets more exposure in these sort of scenarios, more people will be accustomed to it, and they&#x27;ll be more forgiving of its faults.
+
+The bar for &quot;good enough&quot; is gonna get a lot lower as the cost of producing it comes way down with AI.
+    @inerte:
+    Or replace cutscenes in video games, or short videos on ads on mobile (already small and people are barely paying attention)
+
+Nowadays when I randomly open a news website to read some article, at the bottom of the page all the generic &quot;hack to lose your belly&quot; or &quot;doctors recommend weird japanese device&quot; or &quot;how seniors can fly business class&quot;, I&#x27;ve been noticing lately 1&#x2F;3rd of the images seem to be AI generated...
+      @nine_k:
+      Warning: browsing the Web without an ad blocker is hazardous to your mental health. If you regularly see ads permeating most web pages, and don&#x27;t know how to avoid that, you may need to see a specialist.
+        @AStonesThrow:
+        [delayed]
+      @nathan_compton:
+      God, what a dismal future we&#x27;re building.
+  @nine_k:
+  But you don&#x27;t have to outsource 100% of your creative work to your tools. This is a toolbox, not a complete automatic masterpiece generator. If you want serious production, don&#x27;t remove yourself from the loop.
+
+Drive the storytelling, consult with AI on improving things and exploring variations.
+
+Generate visuals, then adjust &#x2F; edit &#x2F; postprocess them to your liking. Feed the machine your drawings and specific graphic ideas, not just vague words.
+
+Use generated voices where they work well, record real humans where you need specific performance. Blend these approaches by altering the voice in a recording.
+
+All these tools just allow you to produce things faster, or produce things at all such that would be too costly to shoot in real life.
+  @Closi:
+  I don’t get how someone can look at these videos and think “wow there’s lots of flaws and it’s sloppy and no storytelling” rather than “holy smokes this stuff is improving fast!”
+
+In 2 years we have moved from AI video being mostly a pipe dream to some incredible clips! It’s not what this is like now, but what will it be like in 10 years!
+  @jhaile:
+  Yea, but we&#x27;re early days and I think that will go away as the tools get better. Also - did you watch the sample short films they have?
+  @superb_dev:
+  You don’t even have to look close for some of these. The owl suddenly flipping direction in the first video was jarring
+    @Workaccount2:
+    It doesn&#x27;t flip, it&#x27;s an illusion. The owl is always facing the camera.
+    @billyp-rva:
+    When it&#x27;s in silhouette you don&#x27;t know what direction it is facing, technically. I think what&#x27;s happening is when you see a shot of something flying in front of something prominent (in this case, the moon), your brain naturally perceives it is going away from the camera and toward the object.
+    @quantumHazer:
+    Yeah the owl &quot;&quot;animation&quot;&quot; is terrible, I bet they could have found better examples? If it wasn&#x27;t the case I don&#x27;t know what to think
+    @JamesBarney:
+    It looked to me like the owl was turning around to land.
+    @llm_nerd:
+    I think that&#x27;s just the silhouette illusion[1]. In this case likely abetted by the framing elements moving near the edges.
+
+[1] - <a href="https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Spinning_dancer" rel="nofollow">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Spinning_dancer</a>

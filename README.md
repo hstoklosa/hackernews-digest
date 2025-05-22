@@ -75,3 +75,8 @@ You can modify the podcast generation parameters in `main.py`:
 
 - Uses [Podcastfy](https://github.com/souzatharsis/podcastfy) for podcast generation
 - Data sourced from [HackerNews API](https://github.com/HackerNews/API)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+

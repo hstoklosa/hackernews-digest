@@ -3,9 +3,11 @@
 import os
 import requests
 import time
-from datetime import datetime
 from typing import List, Dict, Any
+from datetime import datetime
+
 from podcastfy.client import generate_podcast
+
 
 def get_top_stories(limit: int = 30) -> List[int]:
     """Fetch the IDs of the top stories from HackerNews."""
@@ -15,6 +17,7 @@ def get_top_stories(limit: int = 30) -> List[int]:
         return response.json()[:limit]
     return []
 
+
 def get_item(item_id: int) -> Dict[str, Any]:
     """Fetch a Hacker News item by its ID."""
     url = f"https://hacker-news.firebaseio.com/v0/item/{item_id}.json"
@@ -22,6 +25,7 @@ def get_item(item_id: int) -> Dict[str, Any]:
     if response.status_code == 200:
         return response.json()
     return {}
+
 
 def get_top_comments(story_id: int, limit: int = 5) -> List[Dict[str, Any]]:
     """Fetch top comments for a story."""
@@ -37,6 +41,7 @@ def get_top_comments(story_id: int, limit: int = 5) -> List[Dict[str, Any]]:
             time.sleep(0.1)  # Be nice to the API
     
     return comments
+
 
 def prepare_podcast_content() -> str:
     """Prepare content for the podcast by fetching and organizing HackerNews data."""
@@ -91,6 +96,7 @@ def prepare_podcast_content() -> str:
         time.sleep(0.2)  # Be nice to the API
     
     return content
+
 
 def main():
     # Create directories if they don't exist
@@ -147,6 +153,7 @@ def main():
     print(f"Podcast generated successfully!")
     print(f"Transcript: {podcast_result[0]}")
     print(f"Audio file: {podcast_result[1]}")
+
 
 if __name__ == "__main__":
     main()
